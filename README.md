@@ -32,5 +32,5 @@ If you'd like to connect, feel free to reach out via the contact form on my webs
 
 ---
 
-🌐 **Live Site**: _Deployed on Vercel_  
+🌐 **Live Site**: https://portfolio-webpage-gules.vercel.app/
 ✉️ **Email**: dastriparno2005@gmail.com
