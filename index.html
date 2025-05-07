@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Triparno Das | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body class="bg-zinc-900 text-white font-sans">
+
+  <!-- Centered Wrapper -->
+  <div class="max-w-3xl mx-auto px-4">
+
+    <!-- Header -->
+    <header class="text-center py-6">
+      <h1 class="text-4xl font-bold text-orange-400">Triparno Das</h1>
+      <p class="text-md font-semibold text-gray-400">Full Stack Web Developer | AI/ML Enthusiast</p>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="py-8">
+      <h2 class="text-2xl font-semibold mb-2 text-amber-200">About Me</h2>
+      <p>I am an aspiring full-stack developer with hands-on experience in building AI/ML and RAG-based apps. I love working with React, Next.js, and building scalable backend systems.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-8">
+      <h2 class="text-2xl font-semibold mb-2 text-amber-200">Skills</h2>
+      <ul class="list-disc ml-6 space-y-1">
+        <li class="flex flex-colomn"><p class="font-bold text-indigo-300">Frontend</p>: JavaScript, React, Next.js, TypeScript, TailwindCSS</li>
+        <li class="flex flex-colomn"><p class="font-bold text-indigo-300">Backend</p>: Node.js, Express, Hono.js, Firebase</li>
+        <li class="flex flex-colomn"><p class="font-bold text-indigo-300">Databases</p>: PostgreSQL, MongoDB, Redis</li>
+        <li class="flex flex-colomn"><p class="font-bold text-indigo-300">DevOps</p>: Docker, JWT, Git</li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-8">
+      <h2 class="text-2xl font-semibold mb-2 text-amber-200">Experience</h2>
+      <ul class="list-disc ml-6 space-y-1">
+        <li>Built a Streamlit RAG app using DeepSeek-R1</li>
+        <li>Stock price predictor using PyTorch & Python libs</li>
+        <li>Web dev workshops on React/Next with full stack stacks</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-8">
+      <h2 class="text-2xl font-semibold mb-2 text-amber-200">Projects</h2>
+      <ul class="list-disc ml-6 space-y-1">
+        <li><strong class="text-indigo-300">Ecommerce App</strong> – Full stack with JWT + Docker</li>
+        <li><strong class="text-indigo-300">File Sharing App</strong> – Next.js and MongoDB</li>
+        <li><strong class="text-indigo-300">Stock Price Predictor</strong> – PyTorch + ML</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-8">
+      <h2 class="text-2xl font-semibold mb-4 text-amber-200">Contact Me</h2>
+      <form id="contactForm" class="space-y-4">
+        <input type="text" id="name" name="user_name" placeholder="Your Name" class="w-full p-2 rounded bg-zinc-800 text-white border border-zinc-700" required />
+        <input type="email" id="email" name="user_email" placeholder="Your Email" class="w-full p-2 rounded bg-zinc-800 text-white border border-zinc-700" required />
+        <textarea id="message" name="message" placeholder="Your Message" class="w-full p-2 rounded bg-zinc-800 text-white border border-zinc-700" required></textarea>
+        <button type="submit" class="bg-indigo-300 text-zinc-900 font-semibold px-4 py-2 rounded hover:bg-gray-200">Send</button>
+      </form>
+    </section>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-4 right-4 bg-green-600 text-white px-4 py-2 rounded shadow-lg hidden transition-opacity duration-300">
+    Thanks for connecting!
+  </div>
+
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+</html>
